@@ -51,9 +51,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Nav | H | 1hr | hr |
 | Nav Aesthetics | L | 3hr | hr |
-| Hamburger | H | 2hr | hr |  
+| Nav Links | H | 2hr | hr |
+| Nav Logo | H | 2hr | hr |
+| Hamburger | H | 2hr | hr |
+| Grid Layout | H | 2hr | hr |  
 | Flex Box | H | 2.5hr|  hr | 
-| CSS Layout| M | 2.5hr | hr|
+| CSS Layout| H | 2.5hr | hr |
+| CSS Styling | H | 2hr | hr |
 | Adding Format | H | 2hrs|  hr | 
 | Dynamic Transitions | L | 2.5hr | hr | hr |
 | Mobile Responsive | H | 2.5hr | hr |
