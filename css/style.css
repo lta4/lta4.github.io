@@ -38,3 +38,64 @@ body {
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
+
+
+
+/* ********************************************
+****** MAIN STYLES
+******************************************** */
+
+* {
+  border: solid 1px black;
+  
+}
+
+/**************Head***************/
+
+nav {
+  font-size: 30px;
+  color: white;
+  background-color: #36454F;
+  margin: 20px;
+  
+}
+
+/* nav1{
+  text-align: right;
+} */
+
+/************** Main *************/
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-color: #36454F;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-color: #36454F;
+}
+
+.layout {
+  text-align: center;
+  font-size: 30px;
+}
+
+.container{
+  background-color: #9FE2BF;
+  width: 100%;
+  
+}
+
+/**************Footer*************/
+
+footer {
+  margin: 15px;
+  color: white;
+  background-color: #36454F;
+  
+}
