@@ -45,10 +45,10 @@ body {
 ****** MAIN STYLES
 ******************************************** */
 
-* {
+/* * {
   border: solid 1px black;
   
-}
+} */
 
 /**************Head***************/
 
@@ -85,10 +85,14 @@ h2 {
   font-size: 30px;
 }
 
-.container{
+/* .container {
   background-color: #9FE2BF;
   width: 100%;
   
+} */
+
+main {
+  background-color: #9FE2BF
 }
 
 /**************Footer*************/
