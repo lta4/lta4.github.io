@@ -1,3 +1,7 @@
+/**************GOOGLE FONTS*****************/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
 /* *******************************************
 ****** PROJECT SETUP
 ******************************************* */
@@ -45,10 +49,10 @@ body {
 ****** MAIN STYLES
 ******************************************** */
 
-* {
+/* * {
   border: solid 1px black;
   
-}
+} */
 
 /**************Head***************/
 
@@ -71,9 +75,10 @@ body {
 h1 {
   text-align: center;
   font-size: 80px;
+  font-family: "Roboto", sans-serif;
   color: white;
   background-color: #36454F;
-  
+  display: block;  
 }
 
 h2 {
@@ -82,23 +87,15 @@ h2 {
   color: white;
   background-color: #36454F;
   margin: 300px;
+  display: block;
   
 }
 
 .container-layout {
-  display: grid;
-  gap: 20px;
-  grid-template-areas:
-    "header"
-    "nav"
-    "content"
-    "sidebar"
-    "ad"
-    "footer"
-  grid-template-columns: 1;
-  grid-auto-flow: 6fr;
+  display: block;
   text-align: center;
   font-size: 30px;
+  
 }
 
 /* .container-one header {
@@ -127,4 +124,47 @@ main {
 
 #footer {
 
+}
+
+/************GRID*******************/
+
+.head-one {
+  grid-area: header;
+}
+
+.nav-one {
+  grid-area: nav;
+}
+
+.article-one {
+  grid-area: content;
+}
+
+/* .aside-one {
+  grid-area: sidebar;
+}
+
+.ad-one {
+  grid-area: ad;
+} */
+
+.footer-one {
+  grid-area: footer;
+}
+
+@media (min-width: 500px) {
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "content"
+    /* "sidebar"
+    "ad" */
+    "footer";
+  }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
 }
