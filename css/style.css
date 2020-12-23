@@ -84,11 +84,15 @@ h1 {
 h2 {
   text-align: center;
   font-size: 40px;
+  font-family: "Roboto", sans-serif;
   color: white;
   background-color: #36454F;
   margin: 300px;
   display: block;
-  
+}
+
+.par {
+  font-family: "Roboto", sans-serif;
 }
 
 .container-layout {
@@ -116,6 +120,7 @@ main {
 
 .footer-one {
   color: white;
+  font-family: "Roboto", sans-serif;
   background-color: #36454F;
   margin: auto;
   width: 100%;
