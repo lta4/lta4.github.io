@@ -79,27 +79,27 @@ h1 {
   color: white;
   background-color: #36454F;
   display: block;  
+  box-sizing: border-box;
 }
 
 h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
   font-family: "Roboto", sans-serif;
   color: white;
-  background-color: #36454F;
-  margin: 300px;
   display: block;
+  box-sizing: border-box;
 }
 
 .par {
+  font-size: 40px;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
 .container-layout {
   display: block;
   text-align: center;
-  font-size: 30px;
-  
 }
 
 /* .container-one header {
@@ -172,4 +172,19 @@ main {
     display: flex;
     justify-content: space-between;
   }
+}
+
+/****************PORTFOLIO CARDS**************/
+
+.gallery {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 250px, 150px;
+}
+
+.item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
