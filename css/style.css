@@ -88,12 +88,15 @@ h2 {
   font-family: "Roboto", sans-serif;
   color: white;
   display: block;
+  height: 500px;
   box-sizing: border-box;
 }
 
 .par {
   font-size: 40px;
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  height: 500px;
   box-sizing: border-box;
 }
 
@@ -157,7 +160,7 @@ main {
   grid-area: footer;
 }
 
-@media (min-width: 500px) {
+/* @media (min-width: 500px) {
 .wrapper {
   display: grid;
   grid-template-areas:
@@ -166,13 +169,13 @@ main {
     "content"
     /* "sidebar"
     "ad" */
-    "footer";
+    /* "footer";
   }
   nav ul {
     display: flex;
     justify-content: space-between;
-  }
-}
+  } */
+} */
 
 /****************PORTFOLIO CARDS**************/
 
@@ -188,3 +191,25 @@ main {
   height: 100%;
   object-fit: cover;
 }
+
+/***************MOBILE*********************/
+
+/* @media only screen and (min-width: 320px){
+  h1 {
+
+  }
+
+  h2 {
+    display: grid;
+  }
+
+  .par {
+
+  }
+} */
+
+/***************DESKTOP********************/
+
+/* @media screen and (max-width: 1024px) {
+  
+} */
