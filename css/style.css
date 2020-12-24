@@ -179,17 +179,11 @@ main {
 
 /****************PORTFOLIO CARDS**************/
 
-.gallery {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-auto-rows: 250px, 150px;
-}
-
-.item {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+#port-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 /***************MOBILE*********************/
