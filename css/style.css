@@ -49,10 +49,10 @@ body {
 ****** MAIN STYLES
 ******************************************** */
 
-/* * {
+* {
   border: solid 1px black;
   
-} */
+}
 
 /**************Head***************/
 
@@ -121,7 +121,7 @@ main {
 
 /**************Footer*************/
 
-.footer-one {
+#footer {
   color: white;
   font-family: "Roboto", sans-serif;
   background-color: #36454F;
@@ -130,9 +130,13 @@ main {
   height: 50px;
 }
 
-#footer {
-
+#foot-social {
+  color: black;
+  padding: 10px;
 }
+
+/**************ICONS**************/
+
 
 /************CONTACT CARD************/
 
@@ -153,6 +157,10 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
 }
 
 .container {
