@@ -18,6 +18,10 @@
   --text: aerial;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* GLOBAL STYLES */
 * {
   padding: 0;
@@ -49,10 +53,10 @@ body {
 ****** MAIN STYLES
 ******************************************** */
 
-* {
+/* * {
   border: solid 1px black;
   
-}
+} */
 
 /**************Head***************/
 
@@ -88,15 +92,17 @@ h2 {
   font-family: "Roboto", sans-serif;
   color: white;
   display: block;
-  height: 500px;
+  height: 200px;
   box-sizing: border-box;
+  padding: 50px 0;
+  margin: auto;
 }
 
 .par {
   font-size: 40px;
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  height: 500px;
+  margin: auto;
+  height: 400px;
   box-sizing: border-box;
 }
 
@@ -119,6 +125,14 @@ main {
   background-color: #9FE2BF
 }
 
+/**************NAV****************/
+
+/* .flex.navbar-nav {
+  justify-content: flex-end;
+} */
+
+
+
 /**************Footer*************/
 
 #footer {
@@ -126,6 +140,7 @@ main {
   font-family: "Roboto", sans-serif;
   background-color: #36454F;
   margin: auto;
+  padding: 15px;
   width: 100%;
   height: 50px;
 }
@@ -221,24 +236,55 @@ input[type=submit]:hover {
   flex-wrap: wrap;
 }
 
+.title-card {
+  text-align: center;
+  font-family: "Roboto", sans-serif
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 2px 8px;
+  background-color: black;
+  color: white;
+}
 /***************MOBILE*********************/
 
-/* @media only screen and (min-width: 320px){
+@media (min-width: 320px) and (max-width: 480px) {
+  
   h1 {
-
+    font-size: 40px;
+  }
+  
+  .par {
+    font-size: 20px;
   }
 
-  h2 {
-    display: grid;
+  #footer {
+    font-size: 15px;
+  }
+}
+
+/***************TABLET**********************/
+
+@media (min-width: 480px) and (max-width: 768px) {
+  h1 {
+    font-size: 60px;
   }
 
   .par {
-
+    font-size: 30px;
   }
-} */
+
+  #footer {
+    font-size: 15px;
+  }
+}
 
 /***************DESKTOP********************/
 
-/* @media screen and (max-width: 1024px) {
-  
-} */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .contact-card {
+    width: 50%;
+  }
+}
