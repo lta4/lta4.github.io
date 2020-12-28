@@ -222,6 +222,10 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
+/* .fab {
+  
+} */
+
 /************GRID*******************/
 
 .wrapper {
@@ -338,10 +342,11 @@ input[type=submit]:hover {
     padding: 30px;
   }
 
-  .contact-card {
-    width: 100%;
-  }
-}
+  /* .contact-card {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+} */
 
 /***************DESKTOP********************/
 
@@ -349,10 +354,6 @@ input[type=submit]:hover {
   
   #container-one {
     height: 300px;
-  }
-  
-  #container-two {
-    height: 500px;
   }
 
   #container-three {
