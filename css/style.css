@@ -114,12 +114,17 @@ h2 {
 
 #p1 {
   height: 200px;
-  padding: 25px;
+  padding: 50px;
 }
 
 #p2 {
   height: 350px;
-  padding: 10px;
+  padding: 50px;
+}
+
+#p3{
+  height: 350px;
+  padding: 60px;
 }
 
 .container {
@@ -130,7 +135,11 @@ h2 {
 }
 
 #container-one {
+  margin: 50px 0;
+}
 
+#container-two {
+  margin: 50px 0;
 }
 
 .container-layout {
@@ -273,7 +282,6 @@ input[type=submit]:hover {
 .title-card {
   text-align: center;
   font-family: "Roboto", sans-serif
-  
 }
 
 .body-card {
@@ -309,9 +317,15 @@ input[type=submit]:hover {
     font-size: 15px;
   }
 
+  .card {
+    width: 100%;
+  }
+
   .contact-card {
     width: 100%;
   }
+
+
 }
 
 /***************TABLET**********************/
@@ -331,10 +345,6 @@ input[type=submit]:hover {
 
   .contact-card {
     width: 100%;
-  }
-
-  .container {
-    
   }
 }
 
