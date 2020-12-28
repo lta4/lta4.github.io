@@ -76,12 +76,6 @@ body {
 
 /************** Main *************/
 
-/* .grid {
-  display: grid;
-  grid-template-rows: repeat(3, 100px);
-  grid-gap: 1em;
-} */
-
 h1 {
   text-align: center;
   font-size: 80px;
@@ -336,10 +330,6 @@ input[type=submit]:hover {
     font-size: 15px;
   }
 
-  .container {
-    margin: 0 auto;
-  }
-
   #p1 {
     padding: 40px;
   }
@@ -356,6 +346,27 @@ input[type=submit]:hover {
 /***************DESKTOP********************/
 
 @media (min-width: 600px) and (max-width: 1024px) {
+  
+  #container-one {
+    height: 300px;
+  }
+  
+  #container-two {
+    height: 500px;
+  }
+
+  #container-three {
+    height: 450px;
+  }
+
+  #p4 {
+    padding: 10px;
+  }
+  
+  
+  
+  
+  
   .contact-card {
     width: 50%;
   }
