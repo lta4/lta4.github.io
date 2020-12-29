@@ -333,6 +333,10 @@ a:hover.button {
     height: 300px;
   }
 
+  #container-two {
+    height: 500px;
+  }
+
   #container-three {
     height: 450px;
   }
