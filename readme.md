@@ -50,28 +50,28 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Nav | H | 1hr | 2.5hr |
-| Nav Aesthetics | L | 3hr | hr |
+| Nav Aesthetics | L | 3hr | 1.5hr |
 | Nav Links | H | 2hr | 1hr |
-| Nav Logo | H | 2hr | hr |
-| Hamburger | H | 2hr | 1.5hr |
+| Nav Logo | H | 2hr | 2hr |
+| Hamburger | H | 2hr | 2.5hr |
 | Grid Layout | H | 2hr | 3hr |  
 | Flex Box | H | 2.5hr|  hr | 
 | CSS Grid Layout| H | 2.5hr | 2.5hr |
-| CSS Styling | H | 2hr | 1hr |
+| CSS Styling | H | 2hr | 3.5hr |
 | Adding Format | H | 2hrs|  hr | 
-| Dynamic Transitions | L | 2.5hr | hr | hr |
-| Mobile Responsive | H | 2.5hr | 2hr |
-| Tablet Responsive | H | 2hr | 2hr |
-| Desktop Responsive | H | 2.5hr | 2hr |
+| Dynamic Transitions | L | 2.5hr | hr |
+| Mobile Responsive | H | 2.5hr | 2.5hr |
+| Tablet Responsive | H | 2hr | 2.5hr |
+| Desktop Responsive | H | 2.5hr | 2.5hr |
 | API | L | 2.5hr | hr |
 | Total | H | 15.5hrs| hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Personal Icon | H | 1.5hr | -hr | hr |
+| Personal Icon | H | 1.5hr | hr |
 | Social Media Icons | L | 1.5hr | hr |
 | Nav High Light | L | 2hr | hr |
-| Smooth Scroll | H | 2hr | -hr | hr |
+| Smooth Scroll | H | 2hr | 2hr |
 | Project Review | H | 3hr | hr |
 | Total | H | 20hrs| hrs |
 ## Additional Libraries
