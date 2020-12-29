@@ -331,6 +331,12 @@ a:link.button {
 /***************TABLET**********************/
 
 @media (min-width: 500px) and (max-width: 768px) {
+  
+  .container {
+    max-width: none !important;
+    width: 100% !important;
+  }
+  
   h1 {
     font-size: 60px;
   }
@@ -373,6 +379,11 @@ a:link.button {
 
 @media (min-width: 600px) and (max-width: 1024px) {
   
+  .container {
+    max-width: none !important;
+    width: 100% !important;
+  }
+
   #container-one {
     height: 300px;
   }
