@@ -94,7 +94,15 @@ h2 {
 
 #p1 {
   height: 200px;
-  padding: 50px;
+  padding: 20px;
+}
+
+#p1 span {
+  font-size: 50px;
+}
+
+#p1 span-1 {
+  font-size: 30px;
 }
 
 #p2 {
@@ -359,6 +367,7 @@ a:link.button {
   #p2 {
     padding: 30px;
   }
+
 }
 /***************DESKTOP********************/
 
