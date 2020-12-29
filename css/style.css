@@ -60,9 +60,6 @@ body {
 
 /**************Head***************/
 
-.navbar navbar-expand-lg navbar-light bg-light {
-}
-
 /************** Main *************/
 
 h1 {
@@ -136,6 +133,18 @@ main {
 
 /**************NAV****************/
 
+.navbar-brand {
+  font-size: 30px;
+}
+
+a:visited.navbar-brand {
+  color: gray;
+}
+
+.container-fluid {
+  background-color: #f2f2f2;
+}
+
 /**************Footer*************/
 
 #footer {
@@ -191,7 +200,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: gray;
+  background-color: black;
 }
 
 #container-four {
@@ -250,6 +259,8 @@ input[type=submit]:hover {
 }
 
 .title-card {
+  font-size: 30px;
+  padding: 10px;
   text-align: center;
   font-family: "Roboto", sans-serif
 }
@@ -261,7 +272,8 @@ input[type=submit]:hover {
 .button {
   cursor: pointer;
   border-radius: 4px;
-  padding: 12px 20px;
+  padding: 0 0 20px 0;
+  font-size: 20px;
   background-color: #f2f2f2;
   color: gray;
   display: flex;
@@ -270,6 +282,10 @@ input[type=submit]:hover {
 
 a:hover.button {
   color: black;
+}
+
+a:link.button {
+  text-decoration: none;
 }
 
 .contact-card {

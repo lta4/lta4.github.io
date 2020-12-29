@@ -61,8 +61,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Adding Format | H | 2hrs|  hr | 
 | Dynamic Transitions | L | 2.5hr | hr | hr |
 | Mobile Responsive | H | 2.5hr | 2hr |
-| Tablet Responsive | H | 2hr | 1.5hr |
-| Desktop Responsive | H | 2.5hr | 1.5hr |
+| Tablet Responsive | H | 2hr | 2hr |
+| Desktop Responsive | H | 2.5hr | 2hr |
 | API | L | 2.5hr | hr |
 | Total | H | 15.5hrs| hrs |
 #### PostMVP
