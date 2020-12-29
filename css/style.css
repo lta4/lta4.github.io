@@ -60,17 +60,6 @@ body {
 
 /**************Head***************/
 
-/* .nav {
-  font-size: 30px;
-  margin: auto;
-  width: 100%;
-  height: 60px;
-}
-
-#nav-one {
-
-} */
-
 .navbar navbar-expand-lg navbar-light bg-light {
 }
 
@@ -162,7 +151,6 @@ main {
 } */
 
 
-
 /**************Footer*************/
 
 #footer {
@@ -175,16 +163,27 @@ main {
   height: 50px;
 }
 
-#foot-social {
-  color: black;
+#foot-link {
   padding: 10px;
+  display: inline-flex
+  /* justify-content: flex-end;
+  margin-right: auto;
+  flex-direction: row; */
 }
+
+#foot-git {
+display: inline-flex;
+}
+
+
 
 /**************ICONS**************/
 
 .bi bi-linkedin {
   color: red;
 }
+
+
 
 /************CONTACT CARD************/
 
@@ -199,7 +198,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #756c7375;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -208,7 +207,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: gray;
 }
 
 #container-four {
@@ -221,10 +220,6 @@ input[type=submit]:hover {
   height: 80px;
   padding: 20px;
 }
-
-/* .fab {
-  
-} */
 
 /************GRID*******************/
 
@@ -284,9 +279,9 @@ input[type=submit]:hover {
   border-radius: 4px;
   padding: 12px 20px;
   background-color: green;
-  color: black;
+  color: gray;
   display: flex;
-  justify-content: center;   
+  justify-content: center;
 }
 
 .contact-card {
@@ -294,7 +289,7 @@ input[type=submit]:hover {
 }
 /***************MOBILE*********************/
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 500px) {
   
   h1 {
     font-size: 40px;
@@ -321,7 +316,7 @@ input[type=submit]:hover {
 
 /***************TABLET**********************/
 
-@media (min-width: 480px) and (max-width: 768px) {
+@media (min-width: 500px) and (max-width: 768px) {
   h1 {
     font-size: 60px;
   }
@@ -341,13 +336,7 @@ input[type=submit]:hover {
   #p2 {
     padding: 30px;
   }
-
-  /* .contact-card {
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-} */
-
+}
 /***************DESKTOP********************/
 
 @media (min-width: 600px) and (max-width: 1024px) {
