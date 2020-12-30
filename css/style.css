@@ -171,6 +171,10 @@ a:visited.navbar-brand {
   text-decoration: none;
 }
 
+a:hover#foot-name {
+  color: black;
+}
+
 #foot-link {
   display: inline-flex;
   justify-content: space-around;
@@ -376,6 +380,11 @@ a:link.button {
 
 @media (min-width: 500px) and (max-width: 768px) {
   
+  /* #navbarNav {
+    display: flex;
+    justify-content: flex-end;
+  } */
+
   .container {
     max-width: none !important;
     width: 100% !important;
@@ -431,6 +440,11 @@ a:link.button {
 
 @media (min-width: 600px) and (max-width: 1024px) {
   
+  /* #navbarNav {
+    display: inline-flex;
+    justify-content: flex-end;
+  } */
+
   .container {
     max-width: none !important;
     width: 100% !important;
