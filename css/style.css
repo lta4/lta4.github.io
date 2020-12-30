@@ -177,15 +177,19 @@ a:visited.navbar-brand {
 display: inline-flex;
 }
 
-
-
 /**************ICONS**************/
 
-.bi bi-linkedin {
+#foot-link {
   color: red;
+  font-size: 30px;
+  text-decoration: none;
 }
 
-
+#foot-git {
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+}
 
 /************CONTACT CARD************/
 
