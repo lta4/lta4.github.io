@@ -7,8 +7,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
@@ -58,7 +58,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Flex Box | H | 2.5hr|  hr | 
 | CSS Grid Layout| H | 2.5hr | 2.5hr |
 | CSS Styling | H | 2hr | 3.5hr |
-| Adding Format | H | 2hrs|  hr | 
+| Adding Format | H | 2hrs|  2hr | 
 | Dynamic Transitions | L | 2.5hr | hr |
 | Mobile Responsive | H | 2.5hr | 2.5hr |
 | Tablet Responsive | H | 2hr | 2.5hr |
@@ -69,8 +69,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
 | Personal Icon | H | 1.5hr | hr |
-| Social Media Icons | L | 1.5hr | hr |
-| Nav High Light | L | 2hr | hr |
+| Social Media Icons | L | 1.5hr | 3hr |
+| Nav High Light | L | 2hr | 1.5hr |
 | Smooth Scroll | H | 2hr | 2hr |
 | Project Review | H | 3hr | hr |
 | Total | H | 20hrs| hrs |

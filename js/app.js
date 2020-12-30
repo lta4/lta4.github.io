@@ -38,9 +38,31 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1nkqxGiQQqLYrhYJf3PPX4E41jCEU
     ///////////////////////////////////////
 })
 
+//////////////////////////////////////////
+// PHP VALIDATION
+///////////////////////////////////////////
 
+/////PHP EMPTY TO CHECK FOR EMPTY FIELDS
+// if (empty($_POST["name"]))
+// {
+//     echo "Name is required";
+// }
 
+/////PASS NON EMPTY VALUES TO FILTER INPUT
+// function test_input($data)
+// {
+//     $data = trim($data);
+//     $data = stripslashes($data);
+//     $data = htmlspecialchars($data);
+//     return $data;
+// }
 
+///////APPLY PREGMATCH TO GET USER INPUT IN CORRECT FORMAT
+// preg_match("/^[a-zA-Z ]*$/"_POST['name']);
+// preg_match("/([w-]+@[w-]+.[w-]/",$POST['email']);
+
+////////MAIL MESSAGE WITH PHP MAIL
+// MediaList("receiver_mail_id@xyz.com",$msg, $header);
 
 ////////////////////////////////
 // PULL DATA FROM BLOG FROM HEADLESS CMS
