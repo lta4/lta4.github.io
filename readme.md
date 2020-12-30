@@ -55,7 +55,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Nav Logo | H | 2hr | 2hr |
 | Hamburger | H | 2hr | 2.5hr |
 | Grid Layout | H | 2hr | 3hr |  
-| Flex Box | H | 2.5hr|  hr | 
+| Flex Box | H | 2.5hr|  2.5hr | 
 | CSS Grid Layout| H | 2.5hr | 2.5hr |
 | CSS Styling | H | 2hr | 3.5hr |
 | Adding Format | H | 2hrs|  2hr | 
@@ -68,9 +68,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Personal Icon | H | 1.5hr | hr |
+| Personal Icon | H | 1.5hr | 2hr |
 | Social Media Icons | L | 1.5hr | 3hr |
-| Nav High Light | L | 2hr | 1.5hr |
+| Nav High Light | L | 2hr | 2hr |
 | Smooth Scroll | H | 2hr | 2hr |
 | Project Review | H | 3hr | hr |
 | Total | H | 20hrs| hrs |
