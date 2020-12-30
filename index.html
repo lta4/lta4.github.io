@@ -59,8 +59,7 @@
     ></script> -->
 
     <!--********************************FONTAWESOME***************************-->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
     <!-- ***************************SHOELACE********************************** -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.23/dist/shoelace/shoelace.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.23/dist/shoelace/shoelace.esm.js"></script> -->
@@ -75,7 +74,7 @@
     <h1>Andrew Arias</h1>
     <div class= "container" id= "container-one">
       <div class= "container-layout">
-        <p class= "par" id= "p1"><span>Hello</span>, welcome to my portfolio.<br> Below resides an <span-1>exhilarating</span-1> journey as a <strong>Software Engineer</strong>. </p>
+        <p class= "par" id= "p1"><span>Hello</span>... Welcome to my portfolio.<br> Below resides an <span-1>exhilarating</span-1> journey as a <strong>Software Engineer</strong>. </p>
         </div>
         </div>
         <h2>Portfolio</h2>
@@ -111,7 +110,7 @@
         </section>
         <div class= "container" id= "container-two">
           <div class= "container-layout">
-        <p class= "par" id= "p2">I am well versed with tools and resources, such as, <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong> & <strong>jQuery</strong>. I strive to implement a soft, clean touch with great responsiveness and color pop. Simple, reliability are dynamics to make a proper statement. It really is the simple things that stand out!</p>
+        <p class= "par" id= "p2">I am well versed with tools and resources, such as, <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong> & <strong>jQuery</strong>. I strive to implement a soft, clean touch with great responsiveness and <span id="color" style="color:burlywood;">color</span> <span id="pop-one" style="color:seagreen;">pop</span>. Simple & reliability are dynamics I like, in order make a proper statement. It really is the simple things that stand out!</p>
       </div>
     </div>
     <h2>About Me</h2>
@@ -125,16 +124,19 @@
      <div class= "container-layout">
         <p class= "par" id= "p4">Get in contact with me. Let's work together.</p>
         <div class="contact-card">
-        <form action="action_page.php">
+        <form action="action_page.php" method="POST">
 
           <label for="first">First Name</label>
-          <input type="text" id="first" name="firstname" placeholder="Your name..">
+          <input type="text" id="first" name="firstname" placeholder="Your name.." />
           <hr>
           <label for="last">Last Name</label>
-          <input type="text" id="last" name="lastname" placeholder="Your last name..">
+          <input type="text" id="last" name="lastname" placeholder="Your last name.." />
+          <hr>
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Include your email.." />
           <hr>
           <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px">
           </textarea>
           <hr>
           <input type="submit" value="Submit">
@@ -150,11 +152,9 @@
     <p id= "footer"> ©ANDREW ARIAS 2020
       <a id="foot-link" href="https://www.linkedin.com/in/andrewarias4" target="_blank">
       <i class="fab fa-linkedin" aria-hidden="true" style=""></i>
-      Linkedin
       </a>
       <a id="foot-git" href="https://github.com/lta4/lta4.github.io.git" target="_blank">
       <i class="fab fa-github" aria-hidden="true" style=""></i>
-      GitHub
       </a>
     </p>
   </footer>
