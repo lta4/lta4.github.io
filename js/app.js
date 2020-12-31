@@ -9,25 +9,36 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1nkqxGiQQqLYrhYJf3PPX4E41jCEU
     // CHECKING MY DATA
     console.log(data)
 
-    //PUT OUR PROJECTS IN A VARIABLE
-    const rawProjects = data.feed.entry
+    // //PUT OUR PROJECTS IN A VARIABLE
+    // const rawProjects = data.feed.entry
 
-    //log our projects
-    console.log(rawProjects)
+    // //log our projects
+    // console.log(rawProjects)
 
     //prettify our projects array
-    const projects = rawProjects.map((project) => {
+    const projects = data.feed.entry.map((item) => {
         return {
-            name: project.gsx$name.$t,
-            img: project.gsx$img.$t,
-            description: project.gsx$description.$t,
-            live: project.gsx$live.$t,
-            github: project.gsx$github.$t
+            name: item.gsx$name.$t,
+            img: item.gsx$img.$t,
+            // description: project.gsx$description.$t,
+            live: item.gsx$live.$t,
+            github: item.gsx$github.$t
         }
     })
 
     console.log(projects)
 
+    const final = projects.map((project) => {
+        return `
+        <my-card name=${project.name} img=${project.img} live=${project.live} github=${project.github}></my-card>
+        `
+    })
+
+    console.log(final)
+
+    const $section = $("section")
+
+    $section.html(final.join(""))
     ///////////////////////////
     //USE JQUERY TO RENDER PROJECTS TO PAGE
     ///////////////////////////
