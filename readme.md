@@ -59,7 +59,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | CSS Grid Layout| H | 2.5hr | 2.5hr |
 | CSS Styling | H | 2hr | 3.5hr |
 | Adding Format | H | 2hrs|  2hr | 
-| Dynamic Transitions | L | 2.5hr | hr |
+| Dynamic Transitions | L | 2.5hr | 1.5hr |
 | Mobile Responsive | H | 2.5hr | 2.5hr |
 | Tablet Responsive | H | 2hr | 2.5hr |
 | Desktop Responsive | H | 2.5hr | 2.5hr |

@@ -46,9 +46,6 @@ body {
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
-
-
-
 /* ********************************************
 ****** MAIN STYLES
 ******************************************** */
@@ -58,7 +55,19 @@ body {
   
 } */
 
-/**************Head***************/
+/**************NAV****************/
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+a:visited.navbar-brand {
+  color: gray;
+}
+
+.container-fluid {
+  background-color: #f2f2f2;
+}
 
 /************** Main *************/
 
@@ -137,20 +146,6 @@ h2 {
 
 main {
   background-color: #756c7375
-}
-
-/**************NAV****************/
-
-.navbar-brand {
-  font-size: 30px;
-}
-
-a:visited.navbar-brand {
-  color: gray;
-}
-
-.container-fluid {
-  background-color: #f2f2f2;
 }
 
 /**************Footer*************/
@@ -318,6 +313,7 @@ input[type=submit]:hover {
 
 .title-card {
   font-size: 30px;
+  color: #547992;
   padding: 10px;
   text-align: center;
   font-family: "Roboto", sans-serif
@@ -380,11 +376,6 @@ a:link.button {
 
 @media (min-width: 500px) and (max-width: 768px) {
   
-  /* #navbarNav {
-    display: flex;
-    justify-content: flex-end;
-  } */
-
   .container {
     max-width: none !important;
     width: 100% !important;
@@ -499,8 +490,6 @@ a:link.button {
     width: 450px;
   }
 
-
-  
   .contact-card {
     float: right;
   }
