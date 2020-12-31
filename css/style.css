@@ -58,7 +58,7 @@ body {
 /**************NAV****************/
 
 .navbar-brand {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 a:visited.navbar-brand {
@@ -102,8 +102,8 @@ h2 {
 }
 
 #p1 {
-  height: 200px;
-  padding: 20px;
+  height: 250px;
+  padding: 5px;
 }
 
 #p1 span {
@@ -116,12 +116,12 @@ h2 {
 
 #p2 {
   height: 350px;
-  padding: 50px;
+  padding: 10px;
 }
 
 #p3{
-  height: 350px;
-  padding: 60px;
+  height: 300px;
+  padding: 30px;
 }
 
 .container {
@@ -161,6 +161,7 @@ main {
 }
 
 #foot-name {
+  font-size: 12px;
   display: inline-flex;
   color: #f2f2f2;
   text-decoration: none;
@@ -190,7 +191,7 @@ a:hover#foot-name {
 
 #foot-link {
   color: #a1c0fa;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   float: right;
 }
@@ -201,7 +202,7 @@ a:hover#foot-link {
 
 #foot-git {
   color: #a1c0fa;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   float: right;
 }
@@ -212,7 +213,7 @@ a:hover#foot-git {
 
 #foot-email {
   color: #a1c0fa;
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
   float: right;
 }
@@ -304,7 +305,6 @@ input[type=submit]:hover {
 
 .section {
   display: flex;
-  justify-content: space-around;
 }
 
 h1 {
