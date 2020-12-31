@@ -420,7 +420,7 @@ a:link.button {
   }
 
   #p1 {
-    padding: 40px;
+    padding: 10px;
   }
 
   #p1 span-1 {
@@ -438,12 +438,12 @@ a:link.button {
 }
 /***************DESKTOP********************/
 
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   
-  /* #navbarNav {
+  #navbarNav {
     display: inline-flex;
     justify-content: flex-end;
-  } */
+  }
 
   .container {
     max-width: none !important;
