@@ -305,6 +305,25 @@ input[type=submit]:hover {
 
 .section {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 10px auto;
+}
+
+::part(body) {
+  display: flex;
+  justify-content: center;
+}
+
+sl-button::part(base) {
+  margin: 6px;
+}
+
+sl-button-group::part(base) {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 h1 {
@@ -405,7 +424,9 @@ a:link.button {
     font-size: 30px;
   }
 
-  #lps-card {
+
+
+  /* #lps-card {
     width: 502px;
     height: 458px;
     margin: 10px
@@ -420,14 +441,14 @@ a:link.button {
   #st-card {
     width: 502px;
     height: 458px;
-  }
+  } */
 
   #footer {
     font-size: 15px;
   }
 
   #p1 {
-    padding: 10px;
+    padding: 30px;
   }
 
   #p1 span-1 {

@@ -1,19 +1,10 @@
-console.log("hello world");
-
 //////////////////////////
 // PULL AND RENDER DATA FROM GOOGLE SHEET
 //////////////////////////
 
 $.ajax("https://spreadsheets.google.com/feeds/list/1nkqxGiQQqLYrhYJf3PPX4E41jCEUxImH-Yxgf1fbWGA/1/public/full?alt=json")
 .then((data) => {
-    // CHECKING MY DATA
-    console.log(data)
-
-    // //PUT OUR PROJECTS IN A VARIABLE
-    // const rawProjects = data.feed.entry
-
-    // //log our projects
-    // console.log(rawProjects)
+    
 
     //prettify our projects array
     const projects = data.feed.entry.map((item) => {
@@ -26,15 +17,11 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1nkqxGiQQqLYrhYJf3PPX4E41jCEU
         }
     })
 
-    console.log(projects)
-
     const final = projects.map((project) => {
         return `
         <my-card name=${project.name} img=${project.img} live=${project.live} github=${project.github}></my-card>
         `
     })
-
-    console.log(final)
 
     const $section = $("section")
 

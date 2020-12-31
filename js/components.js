@@ -10,7 +10,7 @@ class MyCard extends HTMLElement {
 
         this.innerHTML = `
         <sl-card>
-        <h1>${name}</h1>
+        <h1 slot="header">${name}</h1>
         <img class="img" src =${img} alt=${name} slot="image">
         <sl-button-group>
             <a href=${git}><sl-button>Git</sl-button></a>
