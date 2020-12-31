@@ -409,11 +409,16 @@ a:link.button {
 
 /***************TABLET**********************/
 
-@media (min-width: 500px) and (max-width: 768px) {
+@media (min-width: 501px) and (max-width: 768px) {
   
   .container {
     max-width: none !important;
     width: 100% !important;
+  }
+
+  .hydrated {
+    display: flex;
+    justify-content: center;
   }
   
   #h1-name {
@@ -459,8 +464,17 @@ a:link.button {
     padding: 30px;
   }
 
+  #p3 {
+    padding: 40px;
+  }
+
+  #p4 {
+    padding: 10px;
+  }
+
   .contact-card {
     float: right;
+    width: 50%;
   }
   
 }
@@ -498,11 +512,26 @@ a:link.button {
     font-size: 50px;
   }
 
+  #p2 {
+    height: 300px;
+    padding: 40px;
+  }
+
+  #p3 {
+    height: 300px;
+    padding: 60px;
+  }
+
   #p4 {
     padding: 10px;
   }
 
-  #port-cards {
+  /* .section {
+    display: flex;
+    justify-content: center;  
+  } */
+
+  /* #port-cards {
     display: flex;
     align-content: space-between;
   }
@@ -525,9 +554,10 @@ a:link.button {
   #st-card {
     height: 450px;
     width: 450px;
-  }
+  } */
 
   .contact-card {
     float: right;
+    width: 50%;
   }
 }
