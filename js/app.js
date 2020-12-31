@@ -11,7 +11,6 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1nkqxGiQQqLYrhYJf3PPX4E41jCEU
         return {
             name: item.gsx$name.$t,
             img: item.gsx$img.$t,
-            // description: project.gsx$description.$t,
             live: item.gsx$live.$t,
             github: item.gsx$github.$t
         }

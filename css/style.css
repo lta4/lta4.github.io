@@ -311,75 +311,44 @@ input[type=submit]:hover {
   margin: 10px auto;
 }
 
+::part(header) {
+  background-color: #f2f2f2;
+}
+
 ::part(body) {
   display: flex;
   justify-content: center;
+  background-color: #f2f2f2;
 }
 
 sl-button::part(base) {
   margin: 6px;
+  padding: 0 5px 0 5px;
+  font-size: 16px;
+  color: #547992;
+  background-color: #f2f2f2;
+}
+
+a:hover sl-button::part(base) {
+  background-color: black;
+  color: #f2f2f2;
+  border-color: #f2f2f2;
 }
 
 sl-button-group::part(base) {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 100%; 
 }
 
 h1 {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
-}
-
-/* .card .card--has-image {
-  width: 100%;
-} */
-
-/* #port-cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.card {
-  margin: 10px 0;
-  border-radius: 4px;
-}
-
-.title-card {
-  font-size: 30px;
-  color: #547992;
-  padding: 10px;
+  background-color: #f2f2f2;
   text-align: center;
-  font-family: "Roboto", sans-serif
+  padding: 5px;
 }
 
-.body-card {
-  background-color: #f2f2f2;
-}
-
-.button {
-  cursor: pointer;
-  border-radius: 4px;
-  padding: 0 0 20px 0;
-  font-size: 20px;
-  background-color: #f2f2f2;
-  color: gray;
-  display: flex;
-  justify-content: center;
-}
-
-a:hover.button {
-  color: black;
-}
-
-a:link.button {
-  text-decoration: none;
-}
-
-.contact-card {
-  width: 50%;
-} */
 /***************MOBILE*********************/
 
 @media (min-width: 320px) and (max-width: 500px) {
@@ -429,25 +398,6 @@ a:link.button {
     font-size: 30px;
   }
 
-
-
-  /* #lps-card {
-    width: 502px;
-    height: 458px;
-    margin: 10px
-  }
-
-  #c-card {
-    width: 502px;
-    height: 458px;
-    margin: 10px;
-  }
-
-  #st-card {
-    width: 502px;
-    height: 458px;
-  } */
-
   #footer {
     font-size: 15px;
   }
@@ -492,6 +442,15 @@ a:link.button {
     width: 100% !important;
   }
 
+  .img {
+    max-width: 300px
+  }
+
+  .hydrated {
+    display: flex;
+    justify-content: center;
+  }
+
   #container-one {
     height: 400px;
   }
@@ -526,16 +485,6 @@ a:link.button {
     padding: 10px;
   }
 
-  /* .section {
-    display: flex;
-    justify-content: center;  
-  } */
-
-  /* #port-cards {
-    display: flex;
-    align-content: space-between;
-  }
-
   #lps-card {
     height: 450px;
     width: 450px;
@@ -554,7 +503,7 @@ a:link.button {
   #st-card {
     height: 450px;
     width: 450px;
-  } */
+  }
 
   .contact-card {
     float: right;
