@@ -13,7 +13,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 6| Present | Incomplete
 
 ## Project Description
-A personal portfolio website which emulates my progress becoming a Sofware Developer. I will be using HTML, CSS, JavaScript, jQuery, and other possible libraries. I aim for a responsive, reliable website that offers clean and simple dynamics to make a proper statement. With a well thought out Project Worksheet, I will be able to incorporate multiple resources to send a solid message to perspective clients.
+A personal portfolio website which emulates my progress becoming a Software Developer. I will be using HTML, CSS, JavaScript, jQuery, and other possible libraries. I aim for a responsive, reliable website that offers clean and simple dynamics to make a proper statement. With a well thought out Project Worksheet, I will be able to incorporate multiple resources to send a solid message to perspective clients.
 ## Google Sheet
 Here is my [Google Sheet](https://docs.google.com/spreadsheets/d/1nkqxGiQQqLYrhYJf3PPX4E41jCEUxImH-Yxgf1fbWGA/edit?usp=sharing).
 
@@ -75,13 +75,32 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Project Review | H | 3hr | hr |
 | Total | H | 20hrs| hrs |
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ W3Schools- Helped with techniques for coding.
+ 
+ Stack Overflow- Helped solved an array of questions many developers have, including mine. It helps having an abundant resource guide.
+
+ Google Fonts- Gave me an appealing, modern format.
+ 
+ Bootstrap- I incorporated Bootstrap along with my navigation for a full, functioning Nav Bar with accessible links and scroll down.
+ 
+ Font Awesome- I attached Font Awesome to my Social Media Icons (links) located in my footer.
+ 
+ Markdown Lecture- The lectures provided to us help me better understand Markdown and the significance of making a solid, thorough Project Worksheet.
+
+ CSS-Tricks- Is a great resource solving CSS problems, including Flex Box.
+
 ## Code Snippet
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+Use this section to include a brief code snippet of functionality that you are proud of an a brief description:  
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+#navbarNav {
+    display: inline-flex;
+    justify-content: flex-end;
+  }
 ```
+I don't recall learning about "display: inline-flex" which made it very easy to move my nav bar to the right. Instead of starting off with "display: flex" in block format and than working back to an inline format on the opposite side of the page.
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+I had basic issues with my Icons from Font Awesome not working. I tried using Bootstrap but still continued to have the same problem of the link working, but the icon would not appear. After hours of problem solving I realized it was not reading the correct link. I tried different links to Font Awesome & Bootstrap and had success finally.
+
+Another issue I had was with the not being able to increase the width to 100% in tablet and desktop in my container class. After talking to Alex about it, it could have been a couple of things, such as, the Bootstrap format was causing the issue/ my Media Query's were written incorrectly. We ended up forcing the code with !important in order to bypass the parent element that was wouldn't get rid of the extra margin.
+
+Another issue I had was when I used Flex Box to move content to the other side of the page(in desktop mode), my scroll down in tablet stayed down and would not scroll back up. I realized the Max in tablet and the Min in desktop were overlapping each other which was causing the scroll down to malfunction.
