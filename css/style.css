@@ -473,6 +473,33 @@ a:link.button {
   #p4 {
     padding: 10px;
   }
+
+  #port-cards {
+    display: flex;
+    align-content: space-between;
+  }
+
+  #lps-card {
+    height: 450px;
+    width: 450px;
+  }
+
+  #sgl-card {
+    height: 450px;
+    width: 450px;
+  }
+
+  #c-card {
+    height: 450px;
+    width: 450px;
+  }
+
+  #st-card {
+    height: 450px;
+    width: 450px;
+  }
+
+
   
   .contact-card {
     float: right;
