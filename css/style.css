@@ -455,14 +455,14 @@ h1 {
   }
 
   .img {
-    max-width: 300px
+    max-width: 248px
   }
 
-  .hydrated {
-    display: flex;
-    justify-content: center;
-  }
-
+  /* .hydrated {
+    display: inline-flex;
+    justify-content: space-between;
+   */
+   
   #container-one {
     height: 400px;
   }
