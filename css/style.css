@@ -62,8 +62,12 @@ a:visited.navbar-brand {
   color: gray;
 }
 
+#logo {
+  padding: 0 6px 7px 0;
+}
+
 .container-fluid {
-  background-color: #f2f2f2;
+  background-color: #d9d9d9;
 }
 
 /************** Main *************/
@@ -363,6 +367,10 @@ h1 {
 /*mobile responsiveness */
 @media (min-width: 320px) and (max-width: 500px) {
   
+  .navbar-brand {
+    /* display: none; */
+  }
+
   #h1-name {
     font-size: 40px;
   }
@@ -399,6 +407,10 @@ h1 {
   .hydrated {
     display: flex;
     justify-content: center;
+  }
+
+  #logo {
+    display: none;
   }
   
   #h1-name {
@@ -454,6 +466,10 @@ h1 {
     width: 100% !important;
   }
 
+  #logo {
+    display: none;
+  }
+
   .img {
     max-width: 248px
   }
@@ -462,7 +478,7 @@ h1 {
     display: inline-flex;
     justify-content: space-between;
    */
-   
+
   #container-one {
     height: 400px;
   }
