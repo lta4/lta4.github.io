@@ -1,3 +1,38 @@
+/***************FORMSPREE PROVIDER*************/
+// import { FormspreeProvider } from '@formspree/react';
+// function App({ Component, pageProps }) {
+//   return (
+//     <FormspreeProvider project="1578988433538284848">
+//       <Component {...pageProps} />
+//     </FormspreeProvider>
+//   );
+// }
+// export default App;
+
+// {
+//     "forms": {
+//       "signupForm": {
+//         "name": "Sign-up Form",
+//         "actions": [{ "app": "mailchimp", "type": "addOrUpdateContact" }]
+//       }
+//     }
+//   }
+
+//   import { useForm } from '@formspree/react';
+//   function SignupForm() {
+//     const [state, handleSubmit] = useForm('signupForm');
+//     if (state.succeeded) {
+//       return <div>Thank you for signing up!</div>;
+//     }
+//     return (
+//       <form onSubmit={handleSubmit}>
+//         <label htmlFor="email">Email</label>
+//         <input id="email" type="email" name="email" />
+//         <button type="submit" disabled={state.submitting}>Sign up</button>
+//       </form>
+//     )
+//   }
+
 //////////////////////////
 // PULL AND RENDER DATA FROM GOOGLE SHEET
 //////////////////////////

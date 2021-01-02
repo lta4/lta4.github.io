@@ -43,9 +43,6 @@ body {
   font-family: var(--text);
 }
 
-/* *******************************************
-****** PROJECT STYLES
-******************************************* */
 /* ********************************************
 ****** MAIN STYLES
 ******************************************** */
@@ -93,6 +90,7 @@ h2 {
   margin: auto;
 }
 
+/* paragraph editing */
 .par {
   font-size: 40px;
   font-family: "Roboto", sans-serif;
@@ -123,7 +121,7 @@ h2 {
   height: 300px;
   padding: 30px;
 }
-
+/* containers for paragraphs */
 .container {
   align-content: flex-end;
   background-color: #f2f2f2;
@@ -144,12 +142,14 @@ h2 {
   text-align: center;
 }
 
+/* main background color */
 main {
   background-color: #756c7375
 }
 
 /**************Footer*************/
 
+/* footer main edits */
 #footer {
   color: white;
   font-family: "Roboto", sans-serif;
@@ -160,6 +160,7 @@ main {
   padding: 12px 0 0 12px;
 }
 
+/* name icon edit */
 #foot-name {
   font-size: 12px;
   display: inline-flex;
@@ -170,7 +171,7 @@ main {
 a:hover#foot-name {
   color: black;
 }
-
+/* social media icons (email included) */
 #foot-link {
   display: inline-flex;
   justify-content: space-around;
@@ -187,8 +188,7 @@ a:hover#foot-name {
   padding: 0 5px 0 5px;
 }
 
-/**************ICONS**************/
-
+/* social media styling */
 #foot-link {
   color: #a1c0fa;
   font-size: 25px;
@@ -221,8 +221,10 @@ a:hover#foot-git {
 a:hover#foot-email {
   color: #f2f2f2;
 }
+
 /************CONTACT CARD************/
 
+/*contact card layout */
 input[type=text], textarea {
   width: 100%;
   padding: 12px;
@@ -256,6 +258,7 @@ input[type=submit]:hover {
   background-color: black;
 }
 
+/* container/paragraph edits for contact card */
 #container-four {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -270,6 +273,7 @@ input[type=submit]:hover {
 
 /************GRID*******************/
 
+/* main grid layout */
 .wrapper {
   display: grid;
   width: 100%;
@@ -299,10 +303,13 @@ input[type=submit]:hover {
 }
 
 /****************PORTFOLIO CARDS**************/
+
+/* card images */
 .img {
   max-width: 400px;
 }
 
+/* card layout */
 .section {
   display: flex;
   justify-content: space-around;
@@ -311,6 +318,7 @@ input[type=submit]:hover {
   margin: 10px auto;
 }
 
+/* card styling */
 ::part(header) {
   background-color: #f2f2f2;
 }
@@ -351,6 +359,7 @@ h1 {
 
 /***************MOBILE*********************/
 
+/*mobile responsiveness */
 @media (min-width: 320px) and (max-width: 500px) {
   
   #h1-name {
@@ -378,6 +387,7 @@ h1 {
 
 /***************TABLET**********************/
 
+/* tablet responsiveness */
 @media (min-width: 501px) and (max-width: 768px) {
   
   .container {
@@ -430,6 +440,7 @@ h1 {
 }
 /***************DESKTOP********************/
 
+/* desktop responsiveness */
 @media (min-width: 769px) and (max-width: 1024px) {
   
   #navbarNav {

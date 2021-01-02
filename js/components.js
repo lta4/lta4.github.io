@@ -1,3 +1,4 @@
+/**************CARDS*****************************/
 class MyCard extends HTMLElement {
     constructor(){
         super()

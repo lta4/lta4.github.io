@@ -9,11 +9,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
-|Day 5| Final Touches | Incomplete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 ## Project Description
-A personal portfolio website which emulates my progress becoming a Software Developer. I will be using HTML, CSS, JavaScript, jQuery, and other possible libraries. I aim for a responsive, reliable website that offers clean and simple dynamics to make a proper statement. With a well thought out Project Worksheet, I will be able to incorporate multiple resources to send a solid message to perspective clients.
+A personal portfolio website which emulates my progress becoming a Software Developer. I will be using HTML, CSS, JavaScript, jQuery, and other resourceful libraries. I aim for a responsive, reliable website that offers clean and simple dynamics to make a proper statement. With a well thought out Project Worksheet, I will be able to incorporate multiple resources to send a solid message to perspective clients.
 ## Google Sheet
 Here is my [Google Sheet](https://docs.google.com/spreadsheets/d/1nkqxGiQQqLYrhYJf3PPX4E41jCEUxImH-Yxgf1fbWGA/edit?usp=sharing).
 
@@ -51,7 +51,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | 
 | Nav | H | 1hr | 2.5hr |
 | Nav Aesthetics | L | 3hr | 1.5hr |
-| Nav Links | H | 2hr | 1hr |
+| Nav Links | H | 2hr | 1.5hr |
 | Nav Logo | H | 2hr | 2hr |
 | Hamburger | H | 2hr | 2.5hr |
 | Grid Layout | H | 2hr | 3hr |  
@@ -59,12 +59,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | CSS Grid Layout| H | 2.5hr | 2.5hr |
 | CSS Styling | H | 2hr | 3.5hr |
 | Adding Format | H | 2hrs|  2hr | 
-| Dynamic Transitions | L | 2.5hr | 1.5hr |
+| Dynamic Transitions | L | 2.5hr | 2hr |
 | Mobile Responsive | H | 2.5hr | 2.5hr |
 | Tablet Responsive | H | 2hr | 2.5hr |
 | Desktop Responsive | H | 2.5hr | 2.5hr |
-| API | L | 2.5hr | hr |
-| Total | H | 15.5hrs| hrs |
+| API | L | 2.5hr | 2.5hr |
+| Total | H | 33hrs| 35.5hrs |
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
@@ -72,8 +72,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Social Media Icons | L | 1.5hr | 3hr |
 | Nav High Light | L | 2hr | 2hr |
 | Smooth Scroll | H | 2hr | 2hr |
-| Project Review | H | 3hr | hr |
-| Total | H | 20hrs| hrs |
+| Project Review | H | 3hr | 3hr |
+| Total | H | 10hrs| 15hrs |
 ## Additional Libraries
  W3Schools- Helped with techniques for coding.
  
@@ -104,3 +104,5 @@ I had basic issues with my Icons from Font Awesome not working. I tried using Bo
 Another issue I had was with the not being able to increase the width to 100% in tablet and desktop in my container class. After talking to Alex about it, it could have been a couple of things, such as, the Bootstrap format was causing the issue/ my Media Query's were written incorrectly. We ended up forcing the code with !important in order to bypass the parent element that was wouldn't get rid of the extra margin.
 
 Another issue I had was when I used Flex Box to move content to the other side of the page(in desktop mode), my scroll down in tablet stayed down and would not scroll back up. I realized the Max in tablet and the Min in desktop were overlapping each other which was causing the scroll down to malfunction.
+
+Another issue I had was rendering my project cards from google sheet. The malfunction was when I set up my link in my google sheet, I gave myself an extra "line-space" to break it up from the 1.(name, img, live, ect.). The computer was reading that extra space as something which caused my cards not to show up on my live when I had my descriptions under line 1 and started my links at line 3. An issue that I won't ever forget.
