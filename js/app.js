@@ -36,21 +36,6 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1nkqxGiQQqLYrhYJf3PPX4E41jCEU
           return false;
         });
       });
-    
-    
-    
-    
-    
-    // const $div = $(
-    // `<sl-button class="live-button" href=${project.live} target="_blank">Live</sl-button>`
-    // `<sl-button class="github-button" href=${project.git} target="_blank">Git</sl-button>`
-    // )
-    
-    // $div()
-    
-
-
-    ///////////////////////////////////////
 })
 
 ////////////////////////////////

@@ -13,8 +13,8 @@ class MyCard extends HTMLElement {
         <h1 slot="header">${name}</h1>
         <img class="img" src =${img} alt=${name} slot="image">
         <sl-button-group>
-            <a href=${github}><sl-button>Git</sl-button></a>
-            <a href=${live}><sl-button>Live</sl-button></a>
+            <a href=${github} target="_blank"><sl-button>Git</sl-button></a>
+            <a href=${live} target="_blank"><sl-button>Live</sl-button></a>
         </sl-button-group>
         
         </sl-card>`;
