@@ -10,7 +10,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
 |Day 4| MVP & Bug Fixes | Complete
 |Day 5| Final Touches | Complete
-|Day 6| Present | Incomplete
+|Day 6| Present | Complete
 
 ## Project Description
 A personal portfolio website which emulates my progress becoming a Software Developer. I will be using HTML, CSS, JavaScript, jQuery, and other resourceful libraries. I aim for a responsive, reliable website that offers clean and simple dynamics to make a proper statement. With a well thought out Project Worksheet, I will be able to incorporate multiple resources to send a solid message to perspective clients.
